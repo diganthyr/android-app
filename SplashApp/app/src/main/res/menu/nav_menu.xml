@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/Job"
+            android:icon="@drawable/ic_home"
+            android:title="Job"
+            tools:ignore="HardcodedText" />
+
+        <item android:id="@+id/ip"
+            android:icon="@drawable/ic_home"
+            android:title="In Progress"
+            tools:ignore="HardcodedText" />
+        <item android:id="@+id/completed"
+            android:icon="@drawable/ic_home"
+            android:title="Completed"
+            tools:ignore="HardcodedText" />
+        <item android:id="@+id/analytics"
+            android:icon="@drawable/ic_view"
+            android:title="Analytics"
+            tools:ignore="HardcodedText" />
+        <item android:id="@+id/notification"
+            android:icon="@drawable/ic_notification"
+            android:title="Notification"
+            tools:ignore="HardcodedText" />
+        <item android:id="@+id/setting"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings"
+            tools:ignore="HardcodedText" />
+
+
+
+    </group>
+
+
+</menu>
